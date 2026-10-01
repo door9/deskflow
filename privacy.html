@@ -1,49 +1,56 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>DeskFlow 개인정보처리방침</title>
+<title>DeskFlow Privacy Policy</title>
 <style>
   body { margin: 0; background: #f4f7f8; color: #111; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif; line-height: 1.7; }
-  main { max-width: 680px; margin: 0 auto; padding: 40px 16px; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
   h1 { font-size: 22px; margin: 0 0 4px; }
   h2 { font-size: 16px; margin: 24px 0 6px; }
   p, li { font-size: 14px; }
   a { color: #007f73; }
   .muted { color: #707070; font-size: 13px; }
+  hr { border: 0; border-top: 1px solid #dfe6e8; margin: 28px 0; }
 </style>
 </head>
 <body>
 <main>
-  <h1>DeskFlow 개인정보처리방침</h1>
-  <p class="muted">시행일 2026년 10월 1일</p>
+  <h1>DeskFlow Privacy Policy</h1>
+  <p class="muted">Effective October 1, 2026</p>
 
-  <h2>1. 앱과 사용자</h2>
-  <p>DeskFlow는 한 사람이 자기 Windows PC에서만 쓰는 개인용 앱입니다. 일반에 배포하지 않으며, 다른 사람의 정보를 모으지 않습니다.</p>
+  <h2>1. Who uses DeskFlow</h2>
+  <p>DeskFlow is a personal Windows desktop app used by its developer on their own PC. It is not distributed, and it does not collect information about anyone else.</p>
 
-  <h2>2. 구글 사용자 데이터에 접근하는 범위</h2>
-  <p>구글 캘린더 연동을 켜면 사용자가 직접 로그인해 허락한 범위 <code>https://www.googleapis.com/auth/calendar.events</code>로, 사용자 본인 캘린더 일정의 제목·날짜·시간·설명을 읽고, 사용자가 앱에서 직접 만들거나 고치거나 지운 일정만 그 캘린더에 반영합니다. 다른 구글 서비스나 연락처, 메일 등에는 접근하지 않습니다.</p>
+  <h2>2. Google user data DeskFlow accesses</h2>
+  <p>With the user's consent, given when they sign in with their own Google account, DeskFlow uses the scope <code>https://www.googleapis.com/auth/calendar.events</code> to read the title, date, time and description of events in the user's own calendar, and to create, change or delete events only when the user does so in the app (including saving the note the user types for an event into its description). DeskFlow does not access any other Google service or data.</p>
 
-  <h2>3. 저장과 보관</h2>
+  <h2>3. How the data is used</h2>
+  <p>The data is used only to show the user's events in DeskFlow (calendar screen, upcoming list, D-day counter) and to carry out the changes the user makes. It is not used for advertising, analytics, profiling, or to develop or train AI/ML models.</p>
+
+  <h2>4. Storage and protection</h2>
   <ul>
-    <li>받아 온 일정과 앱에서 쓴 메모·댓글은 사용자의 PC에 저장됩니다.</li>
-    <li>사용자가 원할 때에만, 앱의 자료를 암호화해 사용자 본인의 Dropbox에 동기화·백업합니다.</li>
-    <li>구글 로그인 정보는 사용자 PC의 운영체제 보안 저장소에 암호화해 보관합니다.</li>
+    <li>Events and the notes and comments written in DeskFlow are stored on the user's PC.</li>
+    <li>Only if the user turns it on, DeskFlow's data is encrypted on the PC (AES-256-GCM) and synced or backed up to the user's own Dropbox. No one else can read it.</li>
+    <li>The Google sign-in token is kept encrypted with the operating system's secure storage (Windows DPAPI) on the user's PC.</li>
   </ul>
 
-  <h2>4. 공유하지 않음</h2>
-  <p>구글 사용자 데이터를 제3자에게 넘기거나 팔지 않으며, 광고·분석·인공지능 학습에 쓰지 않습니다. DeskFlow의 구글 API 데이터 사용은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요건 포함)을 따릅니다.</p>
+  <h2>5. Sharing</h2>
+  <p>DeskFlow does not sell, share or transfer Google user data to any third party, and it has no server of its own that receives the data.</p>
+  <p><strong>DeskFlow's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</strong></p>
 
-  <h2>5. 연결 해제와 삭제</h2>
-  <p>앱의 설정에서 '로그아웃'하면 구글 접근 권한이 취소됩니다. <a href="https://myaccount.google.com/permissions">구글 계정의 서드 파티 연결 페이지</a>에서도 언제든 권한을 취소할 수 있습니다. PC에 저장된 자료는 사용자가 앱의 자료 폴더를 지워 삭제할 수 있습니다.</p>
+  <h2>6. Revoking access and deleting data</h2>
+  <p>The user can sign out in DeskFlow's settings, which revokes DeskFlow's access, or remove DeskFlow at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Data on the PC is deleted by removing DeskFlow's data folder; data in the user's Dropbox is deleted from the user's own Dropbox.</p>
 
-  <h2>6. 변경</h2>
-  <p>이 방침이 바뀌면 이 페이지를 고치고 시행일을 새로 적습니다.</p>
+  <h2>7. Changes</h2>
+  <p>If this policy changes, this page is updated and the effective date above is changed.</p>
 
-  <p class="muted">English summary: DeskFlow is a personal app used only by its owner on their own PC. With the user's consent (scope calendar.events) it reads the user's own calendar events and writes only the changes the user makes in the app. Data stays on the user's PC (optionally synced, encrypted, to the user's own Dropbox). Google user data is never shared, sold, or used for ads, analytics, or AI training, and its use follows the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked in the app or at myaccount.google.com/permissions.</p>
-  <p><a href="index.html">DeskFlow 소개로 돌아가기</a></p>
+  <hr>
+  <h2>DeskFlow 개인정보처리방침 (요약)</h2>
+  <p>DeskFlow는 개발자 본인이 자기 PC에서만 쓰는 개인용 앱입니다. 사용자가 허락한 <code>calendar.events</code> 권한으로 본인 캘린더 일정의 제목·날짜·시간·설명을 읽고, 사용자가 앱에서 직접 한 추가·수정·삭제와 일정 메모만 캘린더에 반영합니다. 자료는 사용자 PC에 저장되며(원할 때만 암호화해 본인 Dropbox에 동기화), 제3자에게 넘기거나 팔지 않고 광고·분석·인공지능 학습에 쓰지 않습니다. 구글 API로 받은 정보의 사용은 Google API 서비스 사용자 데이터 정책(제한적 사용 요건 포함)을 따릅니다. 설정의 '로그아웃' 또는 구글 계정 권한 페이지에서 언제든 접근을 취소할 수 있습니다.</p>
+  <p><a href="index.html">DeskFlow home</a></p>
 </main>
 </body>
 </html>

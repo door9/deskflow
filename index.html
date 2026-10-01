@@ -7,22 +7,35 @@
 <title>DeskFlow</title>
 <style>
   body { margin: 0; background: #f4f7f8; color: #111; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif; line-height: 1.7; }
-  main { max-width: 680px; margin: 0 auto; padding: 40px 16px; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
   h1 { font-size: 22px; margin: 0 0 12px; }
+  h2 { font-size: 16px; margin: 24px 0 6px; }
   p, li { font-size: 14px; }
   a { color: #007f73; }
   .muted { color: #707070; font-size: 13px; }
+  hr { border: 0; border-top: 1px solid #dfe6e8; margin: 28px 0; }
 </style>
 </head>
 <body>
 <main>
   <h1>DeskFlow</h1>
-  <p>DeskFlow는 한 사람이 자기 Windows PC에서만 쓰는 개인용 업무 일정·기록 앱입니다. 일반에 배포하거나 판매하지 않습니다.</p>
-  <p>구글 캘린더 연동을 켜면, 사용자가 직접 로그인한 본인 구글 캘린더의 일정을 앱 안에 보여 주고, 사용자가 앱에서 직접 만들거나 고친 일정만 그 캘린더에 기록합니다.</p>
+  <p>DeskFlow is a personal Windows desktop app for planning a newsroom editor's recurring reporting work: daily and weekly tasks with checklists, an important-dates calendar, notes and contacts. It is used by its developer on their own PC and is not distributed or sold.</p>
+
+  <h2>How DeskFlow uses Google Calendar</h2>
+  <p>When the user signs in with their own Google account and grants the permission <code>https://www.googleapis.com/auth/calendar.events</code>, DeskFlow:</p>
   <ul>
-    <li><a href="privacy.html">개인정보처리방침 (Privacy Policy)</a></li>
+    <li>shows the events of the user's own calendar in DeskFlow's calendar screen and its D-day counter;</li>
+    <li>creates an event in that calendar when the user chooses “Google Calendar” as the place to save a new event;</li>
+    <li>changes the title, date, time or description of an event, or deletes it, only when the user does so in DeskFlow;</li>
+    <li>writes the note the user types for an event into that event's description.</li>
   </ul>
-  <p class="muted">DeskFlow is a personal desktop app used by its owner only; it is not distributed. With Google Calendar connected, it shows the signed-in user's own calendar events and writes only the changes the user makes in the app.</p>
+  <p>DeskFlow touches nothing else in the Google account. Calendar data stays on the user's PC; it is not sent to any server of ours, shared, sold, or used for advertising, analytics or AI training. Comments the user writes in DeskFlow are never sent to Google.</p>
+  <p><a href="privacy.html">Privacy Policy (개인정보처리방침)</a></p>
+
+  <hr>
+  <h2>DeskFlow (한국어)</h2>
+  <p>DeskFlow는 편집국 국장석의 반복 보고 업무(매일·매주 업무와 체크리스트), 중요 일정 캘린더, 메모와 연락처를 관리하는 개인용 Windows 앱입니다. 개발자 본인이 자기 PC에서만 쓰며, 배포하거나 판매하지 않습니다.</p>
+  <p>사용자가 본인 구글 계정으로 로그인해 <code>calendar.events</code> 권한을 허락하면, DeskFlow는 본인 캘린더의 일정을 앱 안에 보여 주고, 사용자가 앱에서 직접 만들거나 고치거나 지운 일정과 일정 메모(설명란)만 그 캘린더에 반영합니다. 그 밖의 구글 계정 정보에는 접근하지 않으며, 캘린더 자료를 다른 곳에 보내거나 공유하지 않습니다.</p>
 </main>
 </body>
 </html>
